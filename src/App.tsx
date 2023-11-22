@@ -1,5 +1,11 @@
 import './App.css';
 
+import { CourseGoal } from './components';
+
 export default function App() {
-  return <div className="font-bold">اهداف</div>;
+  return (
+    <main>
+      <CourseGoal />
+    </main>
+  );
 }
